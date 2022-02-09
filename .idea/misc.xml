@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Public/AndroidStudioProjects/FBexam/app/src/main/res/layout/activity_auth.xml" value="0.1265625" />
+        <entry key="..\:/Users/Public/AndroidStudioProjects/FBexam/app/src/main/res/layout/activity_cloud_messaging.xml" value="0.12916666666666668" />
+        <entry key="..\:/Users/Public/AndroidStudioProjects/FBexam/app/src/main/res/layout/activity_cloud_storage.xml" value="0.4" />
+        <entry key="..\:/Users/Public/AndroidStudioProjects/FBexam/app/src/main/res/layout/activity_download.xml" value="0.12916666666666668" />
+        <entry key="..\:/Users/Public/AndroidStudioProjects/FBexam/app/src/main/res/layout/activity_firebase_uiactivity.xml" value="0.1265625" />
+        <entry key="..\:/Users/Public/AndroidStudioProjects/FBexam/app/src/main/res/layout/activity_firestore.xml" value="0.23489583333333333" />
+        <entry key="..\:/Users/Public/AndroidStudioProjects/FBexam/app/src/main/res/layout/activity_main.xml" value="0.1265625" />
+        <entry key="..\:/Users/Public/AndroidStudioProjects/FBexam/app/src/main/res/layout/activity_memo.xml" value="0.4" />
+        <entry key="..\:/Users/Public/AndroidStudioProjects/FBexam/app/src/main/res/layout/activity_memo_adapter.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/Public/AndroidStudioProjects/FBexam/app/src/main/res/layout/activity_memoitem.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/Public/AndroidStudioProjects/FBexam/app/src/main/res/layout/activity_meta_info.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/Public/AndroidStudioProjects/FBexam/app/src/main/res/layout/activity_myfirebase_messaging_service.xml" value="0.11458333333333333" />
+        <entry key="..\:/Users/Public/AndroidStudioProjects/FBexam/app/src/main/res/layout/activity_name.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/Public/AndroidStudioProjects/FBexam/app/src/main/res/layout/activity_register.xml" value="0.4" />
+        <entry key="..\:/Users/Public/AndroidStudioProjects/FBexam/app/src/main/res/layout/activity_upload.xml" value="0.10833333333333334" />
+        <entry key="..\:/Users/Public/AndroidStudioProjects/FBexam/app/src/main/res/layout/memo_item_list.xml" value="0.2" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "172019517700",
+    "project_id": "fir-s-d57a6",
+    "storage_bucket": "fir-s-d57a6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:172019517700:android:3643aa475217997fd66851",
+        "android_client_info": {
+          "package_name": "com.example.fbexam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "172019517700-lj5tvoe1lckvlt81njol47420370tpl3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPI-ppPKt6Ho_BMMCl_OFQkHqcwoy3y_M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "172019517700-lj5tvoe1lckvlt81njol47420370tpl3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
