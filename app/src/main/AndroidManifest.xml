@@ -9,6 +9,7 @@
         android:name="android.permission.WRITE_EXTERNAL_STORAGE"
         tools:ignore="ScopedStorage" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission
         android:name="android.permission.MANAGE_EXTERNAL_STORAGE"
         tools:ignore="ScopedStorage" />
@@ -23,6 +24,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FBexam"
         tools:targetApi="r">
+        <activity
+            android:name=".cloudmessaging.httpsconnection"
+            android:exported="false" />
         <activity
             android:name=".firestore.register"
             android:exported="false" />
@@ -69,12 +73,13 @@
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <service android:name=".cloudmessaging.MyFirebaseMessagingService">
+        <service
+            android:name=".cloudmessaging.MyFirebaseMessagingService"
+            android:exported="false"
+            android:directBootAware="true">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>

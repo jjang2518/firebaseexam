@@ -11,6 +11,7 @@ import android.widget.Button;
 import android.widget.Toast;
 
 import com.example.fbexam.authentication.AuthActivity;
+import com.example.fbexam.cloudmessaging.httpsconnection;
 import com.example.fbexam.cloudstorage.CloudStorageActivity;
 import com.example.fbexam.firestore.FirestoreActivity;
 import com.example.fbexam.firestore.register;
@@ -62,7 +63,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(i);
                 break;
             case R.id.firebaserealtimedbbtn:
-                i = new Intent(this, MemoActivity.class);
+                i = new Intent(this, CloudMessagingActivity.class);
                 startActivity(i);
                 break;
             case R.id.firebasecloudfirestorebtn:
@@ -73,7 +74,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 i = new Intent(this, CloudStorageActivity.class);
                 startActivity(i);
             case R.id.firebasecloudmessagingbtn:
-                i=new Intent(this, CloudMessagingActivity.class);
+                i=new Intent(this, httpsconnection.class);
                 startActivity(i);
                 break;
 

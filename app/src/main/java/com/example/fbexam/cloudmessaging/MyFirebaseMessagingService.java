@@ -1,7 +1,6 @@
 package com.example.fbexam.cloudmessaging;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 
 import com.example.fbexam.MainActivity;
@@ -63,7 +62,7 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService
     private void handleNow(RemoteMessage remoteMessage)
     {
         Log.d("jang", "handleNow in");
-        sendNotification(remoteMessage.getData().get("message"));
+        sendNotification(remoteMessage.getData().get("message"),remoteMessage.getData().get("title"));//제목 추가
     }
 
     private void sendRegistrationToServer(String token)
@@ -71,7 +70,7 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService
         Log.d("jang", "onNewToken token = " + token);
     }
 
-    private void sendNotification(String messageBody)
+    private void sendNotification(String messageBody, String messagetitle)
     {
         Intent intent = new Intent(this, MainActivity.class);
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
@@ -83,7 +82,7 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService
         NotificationCompat.Builder notificationBuilder =
                 new NotificationCompat.Builder(this, channelId)
                         .setSmallIcon(R.mipmap.ic_launcher)
-                        .setContentTitle(getString(R.string.app_name))
+                        .setContentTitle(messagetitle)//getString(R.string.app_name)
                         .setContentText(messageBody)
                         .setAutoCancel(true)
                         .setSound(defaultSoundUri)

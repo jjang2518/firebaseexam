@@ -64,7 +64,7 @@
         android:id="@+id/firebasecloudmessagingbtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Firebase Cloud Storage"
+        android:text="Firebase Cloud message"
         app:layout_constraintTop_toBottomOf="@+id/firebasecloudstoragebtn"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"

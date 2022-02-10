@@ -9,6 +9,7 @@
         <entry key="..\:/Users/Public/AndroidStudioProjects/FBexam/app/src/main/res/layout/activity_download.xml" value="0.12916666666666668" />
         <entry key="..\:/Users/Public/AndroidStudioProjects/FBexam/app/src/main/res/layout/activity_firebase_uiactivity.xml" value="0.1265625" />
         <entry key="..\:/Users/Public/AndroidStudioProjects/FBexam/app/src/main/res/layout/activity_firestore.xml" value="0.23489583333333333" />
+        <entry key="..\:/Users/Public/AndroidStudioProjects/FBexam/app/src/main/res/layout/activity_httpsconnection.xml" value="0.24947916666666667" />
         <entry key="..\:/Users/Public/AndroidStudioProjects/FBexam/app/src/main/res/layout/activity_main.xml" value="0.1265625" />
         <entry key="..\:/Users/Public/AndroidStudioProjects/FBexam/app/src/main/res/layout/activity_memo.xml" value="0.4" />
         <entry key="..\:/Users/Public/AndroidStudioProjects/FBexam/app/src/main/res/layout/activity_memo_adapter.xml" value="0.24947916666666667" />
@@ -19,6 +20,7 @@
         <entry key="..\:/Users/Public/AndroidStudioProjects/FBexam/app/src/main/res/layout/activity_register.xml" value="0.4" />
         <entry key="..\:/Users/Public/AndroidStudioProjects/FBexam/app/src/main/res/layout/activity_upload.xml" value="0.10833333333333334" />
         <entry key="..\:/Users/Public/AndroidStudioProjects/FBexam/app/src/main/res/layout/memo_item_list.xml" value="0.2" />
+        <entry key="..\:/Users/Public/AndroidStudioProjects/FBexam/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.16197916666666667" />
       </map>
     </option>
   </component>
